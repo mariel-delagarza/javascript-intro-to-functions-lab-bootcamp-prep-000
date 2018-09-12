@@ -5,7 +5,5 @@ function whisper(string) {
   return string.toLowerCase()
 }
 function logShout(string) {
-  const spy=spyOn(console, 'log').CallThrough()
-  logShout('hello')
-  console.log.restore() 
+  console.log(strong.toUpperCase())
 }

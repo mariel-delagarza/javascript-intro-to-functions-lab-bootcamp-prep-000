@@ -6,5 +6,5 @@ function whisper(string) {
 }
 function logShout(string) {
   const spy=spyOn(console, 'log').CallThrough()
-  
+  logShout('hello')
 }

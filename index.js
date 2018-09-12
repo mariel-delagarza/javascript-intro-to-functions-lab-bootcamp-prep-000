@@ -5,5 +5,5 @@ function whisper(string) {
   return string.toLowerCase()
 }
 function logShout(string) {
-  spyOn(console, 'log')
+  return spyOn(console, 'log')
 }

@@ -4,6 +4,6 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase()
 }
-function spy() {
-  console.log(HELLO.toLowerCase)
+function spy(string) {
+  console.log(string.toLowerCase)
 }
